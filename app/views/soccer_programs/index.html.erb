@@ -1,0 +1,12 @@
+<% if params[:query] == "wffull" %>
+  <%= render partial: 'wffull' %>
+<% elsif params[:query] == "wffhalf"%>
+  <%= render partial: "wffhalf" %>
+ <% elsif params[:query] == "nonfull"%>
+ <%= render partial: 'nonfull' %>
+ <% elsif params[:query] == "nonhalf"%>
+ <%= render partial: 'nonhalf' %>
+ <% elsif params[:query] == "Forms"%>
+ <%= render partial: 'tap_forms' %>
+ <%else%>
+ <%end%>

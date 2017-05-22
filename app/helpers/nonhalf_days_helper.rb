@@ -1,0 +1,2 @@
+module NonhalfDaysHelper
+end

@@ -1,0 +1,113 @@
+<header>
+  <div class="container">
+    <div class="top-bar hidden-sm-down">
+      <div class="row">
+        <div class="col-md-9 col-sm-9">
+          <span>
+           <a href="tel:+614123456789"><i class="fa fa-phone"></i>407-690-4148</a>
+            </span>
+                        <!--phone-->
+
+            <span>
+             <a href="mailto:info@yourdomain.com "><i class="fa fa-envelope"></i> mikelaw2014@gmail.com</a>
+              </span>
+              <span>
+              <i class="fa fa-map-marker"></i> Brandon, Florida
+              </span>
+              </div>
+        <!--header info-->
+        <div class="col-md-3 col-sm-3">
+          <ul class="social-icons txt-r">
+            <li>
+              <a href="#" class="rounded-circle">
+              <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="rounded-circle">
+              <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="rounded-circle">
+              <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="rounded-circle">
+              <i class="fa fa-pinterest"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--social-->
+      </div>
+    </div>
+    <!--top bar ends-->
+    <nav class="navbar navbar-toggleable-sm">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="/"><%= image_tag "enstruct_layout/sc2.png",alt: "logo" %></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li>
+            <a href="/">Home </a>
+            <ul class="sub-menu">
+            </ul>
+          </li>
+          <li>
+           
+         
+            <a href="/">JUNE SOCCER CAMPS </a>
+            <ul class="sub-menu">
+             <li><%=link_to 'WFF MEMBERS FULL DAY',soccer_programs_path(query: "wffull")%></li>
+               <li><%=link_to 'WFF MEMBERS HALF DAY',soccer_programs_path(query: "wffhalf")%></li>
+               <li><%=link_to 'NON MEMBERS FULL DAY',soccer_programs_path(query: "nonfull")%></li>
+               <li><%=link_to 'NON HALF FULL DAY',soccer_programs_path(query: "nonhalf")%></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/">JULY SOCCER CAMPS </a>
+             <ul class="sub-menu">
+             <li><%=link_to 'WFF MEMBERS FULL DAY',soccer_programs_path(query: "wffull")%></li>
+               <li><%=link_to 'WFF MEMBERS HALF DAY',soccer_programs_path(query: "wffhalf")%></li>
+               <li><%=link_to 'NON MEMBERS FULL DAY',soccer_programs_path(query: "nonfull")%></li>
+               <li><%=link_to 'NON HALF FULL DAY',soccer_programs_path(query: "nonhalf")%></li>
+            </ul>
+          </li>
+          <!-- ADDITIONAL LINKS> -->
+          <!-- <ADDITOONL LINKS> -->
+          <li>
+            <a href="/">My account </a>
+            <ul class="sub-menu">
+              <% if user_signed_in? %>
+                <li>
+                  <%= image_tag avatar_url(current_user), class: "circle responsive-img avatar-small" %>&nbsp;
+                  <%= current_user.name || "User" %>
+                </li>
+                <li><%= link_to "Logout", destroy_user_session_path, :method => :delete %></li>
+              <% else %>
+                <li><%=link_to 'Sign Up', new_user_registration_path %></li>
+                <li><%=link_to 'Log In', new_user_session_path %></li>
+              <% end %>
+            </ul>
+          </li>
+        </ul>
+        <!--navbar-->
+        <!-- <div class="header-cart">
+          <ul>
+            <li class="cart-item">
+              <a href="02-enstruct-homepage-conference.html#" class="header-cart-icon rounded-circle" title="cart">
+              <span class="item-number rounded-circle">5</span>
+              <%#= image_tag "enstruct_layout/cart-small-blue.png", alt: "Cart icon" %>
+              </a>
+            </li>
+          </ul>
+        </div> -->
+        <!--header cart-->
+      </div>
+    </nav>
+    <!--primery navigation ends-->
+  </div>
+</header>
