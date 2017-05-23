@@ -58118,3 +58118,1657 @@ ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.cs
   Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (13.9ms)
   Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
   Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (477.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-22 23:14:44 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductController#index as HTML
+  Rendered product/_plans.html.erb (2.2ms)
+  Rendered product/_plans.html.erb (1.2ms)
+  Rendered product/index.html.erb within layouts/application (13692.8ms)
+  Rendered layouts/_header.html.erb (9.7ms)
+  Rendered layouts/_footer.html.erb (2.9ms)
+Completed 200 OK in 13854ms (Views: 13810.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:14:58 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:14:58 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:14:59 -0400
+
+
+Started GET "/assets/enstruct_layout/Soccer-Boot.png" for 127.0.0.1 at 2017-05-22 23:14:59 -0400
+
+
+Started GET "/assets/enstruct_layout/place.png" for 127.0.0.1 at 2017-05-22 23:14:59 -0400
+
+
+Started GET "/assets/enstruct_layout/sc-sm.png" for 127.0.0.1 at 2017-05-22 23:14:59 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo1.png" for 127.0.0.1 at 2017-05-22 23:14:59 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo2.png" for 127.0.0.1 at 2017-05-22 23:14:59 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo3.png" for 127.0.0.1 at 2017-05-22 23:14:59 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo4.png" for 127.0.0.1 at 2017-05-22 23:14:59 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:14:59 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:14:59 -0400
+
+
+Started GET "/assets/enstruct_layout/sf.png" for 127.0.0.1 at 2017-05-22 23:14:59 -0400
+
+
+Started GET "/assets/enstruct_layout/grass2.png" for 127.0.0.1 at 2017-05-22 23:15:00 -0400
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-05-22 23:15:01 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (31.3ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (248.3ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (327.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (503.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-22 23:16:27 -0400
+Processing by ProductController#index as HTML
+  Rendered product/_plans.html.erb (0.8ms)
+  Rendered product/_plans.html.erb (0.6ms)
+  Rendered product/index.html.erb within layouts/application (34.0ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:16:27 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:16:27 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:16:27 -0400
+
+
+Started GET "/assets/enstruct_layout/Soccer-Boot.png" for 127.0.0.1 at 2017-05-22 23:16:27 -0400
+
+
+Started GET "/assets/enstruct_layout/place.png" for 127.0.0.1 at 2017-05-22 23:16:27 -0400
+
+
+Started GET "/assets/enstruct_layout/sc-sm.png" for 127.0.0.1 at 2017-05-22 23:16:27 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo1.png" for 127.0.0.1 at 2017-05-22 23:16:27 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo2.png" for 127.0.0.1 at 2017-05-22 23:16:27 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo3.png" for 127.0.0.1 at 2017-05-22 23:16:27 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo4.png" for 127.0.0.1 at 2017-05-22 23:16:27 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:16:27 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:16:28 -0400
+
+
+Started GET "/assets/enstruct_layout/sf.png" for 127.0.0.1 at 2017-05-22 23:16:28 -0400
+
+
+Started GET "/assets/enstruct_layout/grass2.png" for 127.0.0.1 at 2017-05-22 23:16:28 -0400
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:18:40 -0400
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-05-22 23:18:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.2ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (159.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (112.0ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (257.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-22 23:18:56 -0400
+Processing by ProductController#index as HTML
+  Rendered product/_plans.html.erb (1.1ms)
+  Rendered product/_plans.html.erb (0.6ms)
+  Rendered product/index.html.erb within layouts/application (34.4ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 66ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:18:57 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:18:57 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:18:57 -0400
+
+
+Started GET "/assets/enstruct_layout/Soccer-Boot.png" for 127.0.0.1 at 2017-05-22 23:18:57 -0400
+
+
+Started GET "/assets/enstruct_layout/place.png" for 127.0.0.1 at 2017-05-22 23:18:57 -0400
+
+
+Started GET "/assets/enstruct_layout/sc-sm.png" for 127.0.0.1 at 2017-05-22 23:18:57 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo1.png" for 127.0.0.1 at 2017-05-22 23:18:57 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo2.png" for 127.0.0.1 at 2017-05-22 23:18:57 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo3.png" for 127.0.0.1 at 2017-05-22 23:18:57 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo4.png" for 127.0.0.1 at 2017-05-22 23:18:57 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:18:57 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:18:57 -0400
+
+
+Started GET "/assets/enstruct_layout/sf.png" for 127.0.0.1 at 2017-05-22 23:18:58 -0400
+
+
+Started GET "/assets/enstruct_layout/grass2.png" for 127.0.0.1 at 2017-05-22 23:18:58 -0400
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:19:03 -0400
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-05-22 23:19:04 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (11.0ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (154.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (114.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (267.3ms)
+
+
+Started GET "/soccer_programs?query=wffull" for 127.0.0.1 at 2017-05-22 23:19:10 -0400
+Processing by SoccerProgramsController#index as HTML
+  Parameters: {"query"=>"wffull"}
+  Rendered soccer_programs/_wffull.html.erb (34.2ms)
+  Rendered soccer_programs/index.html.erb within layouts/application (58.4ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (2.9ms)
+Completed 200 OK in 113ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:19:11 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:19:11 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:19:11 -0400
+
+
+Started GET "/assets/enstruct_layout/player.png" for 127.0.0.1 at 2017-05-22 23:19:11 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:19:11 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:19:11 -0400
+
+
+Started GET "/assets/enstruct_layout/grass-ban.png" for 127.0.0.1 at 2017-05-22 23:19:11 -0400
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&plan_name=wffull&interval=1&commit=Register" for 127.0.0.1 at 2017-05-22 23:19:16 -0400
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "plan_name"=>"wffull", "interval"=>"1", "commit"=>"Register"}
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (66.2ms)
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 184ms (Views: 114.9ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:19:17 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:19:17 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:19:17 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:19:17 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:19:17 -0400
+
+
+Started GET "/assets/enstruct_layout/grass-ban.png" for 127.0.0.1 at 2017-05-22 23:19:17 -0400
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-05-22 23:19:21 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_header.html.erb (4.2ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 56ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:19:21 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:19:21 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:19:22 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:19:22 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:19:22 -0400
+
+
+Started GET "/assets/enstruct_layout/grass-ban.png" for 127.0.0.1 at 2017-05-22 23:19:22 -0400
+
+
+Started POST "/users" for 127.0.0.1 at 2017-05-22 23:19:32 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gfAgSCeqoMkt4AURi3BWx1R7aAzWa/ZdYrwndMkkwVr+/5fxiIFzx464I7bRO/mzuCgi2EeDMZlH0D5v/BfzTw==", "user"=>{"email"=>"test@mer.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (1.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'test@mer.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (13.3ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 411ms (Views: 56.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:19:32 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:19:32 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:19:32 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:19:32 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:19:33 -0400
+
+
+Started GET "/assets/enstruct_layout/grass-ban.png" for 127.0.0.1 at 2017-05-22 23:19:33 -0400
+
+
+Started POST "/users" for 127.0.0.1 at 2017-05-22 23:19:42 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bgKxIuRJ5EZBcxRFjAwOQEm7JCjr4+9p/ShSWExluFgRDQabS2I3SOIrMuLWR6E0pehu/HoLKK3YREtDeVaKTQ==", "user"=>{"email"=>"test@mer.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'test@mer.com' LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "test@mer.com"], ["encrypted_password", "$2a$11$QBLDz7BDszNIG8Xi5xz7a.62nZbAueh7MIXMxvwwPaH/OJVvc7DN."], ["created_at", "2017-05-23 03:19:42.871143"], ["updated_at", "2017-05-23 03:19:42.871143"]]
+  [1m[35m (53.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7  [["last_sign_in_at", "2017-05-23 03:19:42.929847"], ["current_sign_in_at", "2017-05-23 03:19:42.929847"], ["last_sign_in_ip", "127.0.0.1/32"], ["current_sign_in_ip", "127.0.0.1/32"], ["sign_in_count", 1], ["updated_at", "2017-05-23 03:19:42.931037"], ["id", 25]]
+  [1m[36m (15.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/soccer_programs?query=wffull
+Completed 302 Found in 299ms (ActiveRecord: 71.9ms)
+
+
+Started GET "/soccer_programs?query=wffull" for 127.0.0.1 at 2017-05-22 23:19:43 -0400
+Processing by SoccerProgramsController#index as HTML
+  Parameters: {"query"=>"wffull"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  Rendered soccer_programs/_wffull.html.erb (7.5ms)
+  Rendered soccer_programs/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_header.html.erb (3.2ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:19:43 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:19:43 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:19:43 -0400
+
+
+Started GET "/assets/enstruct_layout/player.png" for 127.0.0.1 at 2017-05-22 23:19:43 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:19:43 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:19:43 -0400
+
+
+Started GET "/assets/enstruct_layout/grass-ban.png" for 127.0.0.1 at 2017-05-22 23:19:43 -0400
+
+
+Started GET "/wffull_days?utf8=%E2%9C%93&plan_name=wffull&interval=2&commit=Register" for 127.0.0.1 at 2017-05-22 23:19:47 -0400
+Processing by WffullDaysController#index as HTML
+  Parameters: {"utf8"=>"✓", "plan_name"=>"wffull", "interval"=>"2", "commit"=>"Register"}
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 25]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "child_count" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["child_count", 2], ["updated_at", "2017-05-23 03:19:47.655095"], ["id", 25]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "children" WHERE "children"."user_id" = $1[0m  [["user_id", 25]]
+  [1m[35mChild Load (0.4ms)[0m  SELECT "children".* FROM "children" WHERE "children"."user_id" = $1  [["user_id", 25]]
+  Rendered partials/_children_form.html.erb (105.7ms)
+  Rendered wffull_days/index.html.erb within layouts/application (131.4ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (18.5ms)
+Completed 200 OK in 309ms (Views: 191.2ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:19:48 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:19:48 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:19:48 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:19:48 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:19:48 -0400
+
+
+Started PUT "/wffull_days/25" for 127.0.0.1 at 2017-05-22 23:20:16 -0400
+Processing by WffullDaysController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nWV0yCzjEjtJNJ2rrTNtkNv50PTkSOTInJNIjhhPHfjiasNxg8jBNepsuwz3eMLkN6qaIHWgIwy5/1GVLXwv7Q==", "user"=>{"parent_name"=>"ff", "last_name"=>"ff", "primary_phone"=>"ff", "children_attributes"=>{"0"=>{"name"=>"f", "dob"=>"ff", "grade"=>"ff", "home_address"=>"f", "allergies"=>"f", "shirt_size"=>"1", "short_size"=>"2", "soccer_postiion"=>["DEF", ""]}, "1"=>{"name"=>"ff", "dob"=>"ff", "grade"=>"ff", "home_address"=>"ff", "allergies"=>"f", "shirt_size"=>"2", "short_size"=>"1", "soccer_postiion"=>["MID", ""]}}, "plan_name"=>"wffull", "interval"=>"2"}, "commit"=>"Continue", "id"=>"25"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 25]]
+Unpermitted parameter: interval
+Unpermitted parameter: interval
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "users" SET "plan_name" = $1, "last_name" = $2, "primary_phone" = $3, "parent_name" = $4, "plan" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["plan_name", "wffull"], ["last_name", "ff"], ["primary_phone", "ff"], ["parent_name", "ff"], ["plan", "2"], ["updated_at", "2017-05-23 03:20:16.173055"], ["id", 25]]
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "children" ("name", "grade", "home_address", "shirt_size", "short_size", "allergies", "soccer_postiion", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"  [["name", "f"], ["grade", "ff"], ["home_address", "f"], ["shirt_size", 1], ["short_size", 2], ["allergies", "f"], ["soccer_postiion", "{DEF,\"\"}"], ["user_id", 25], ["created_at", "2017-05-23 03:20:16.177287"], ["updated_at", "2017-05-23 03:20:16.177287"]]
+  [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO "children" ("name", "grade", "home_address", "shirt_size", "short_size", "allergies", "soccer_postiion", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "ff"], ["grade", "ff"], ["home_address", "ff"], ["shirt_size", 2], ["short_size", 1], ["allergies", "f"], ["soccer_postiion", "{MID,\"\"}"], ["user_id", 25], ["created_at", "2017-05-23 03:20:16.183623"], ["updated_at", "2017-05-23 03:20:16.183623"]]
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "children" ("name", "grade", "home_address", "shirt_size", "short_size", "allergies", "soccer_postiion", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"  [["name", "f"], ["grade", "ff"], ["home_address", "f"], ["shirt_size", 1], ["short_size", 2], ["allergies", "f"], ["soccer_postiion", "{DEF,\"\"}"], ["user_id", 25], ["created_at", "2017-05-23 03:20:16.188429"], ["updated_at", "2017-05-23 03:20:16.188429"]]
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "children" ("name", "grade", "home_address", "shirt_size", "short_size", "allergies", "soccer_postiion", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "ff"], ["grade", "ff"], ["home_address", "ff"], ["shirt_size", 2], ["short_size", 1], ["allergies", "f"], ["soccer_postiion", "{MID,\"\"}"], ["user_id", 25], ["created_at", "2017-05-23 03:20:16.193592"], ["updated_at", "2017-05-23 03:20:16.193592"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/wffull_payment
+Completed 302 Found in 54ms (ActiveRecord: 8.8ms)
+
+
+Started GET "/wffull_payment" for 127.0.0.1 at 2017-05-22 23:20:16 -0400
+Processing by WffullDaysController#wffull_payment as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 25]]
+  Rendered wffull_days/wffull_payment.html.erb within layouts/application (33.6ms)
+  Rendered layouts/_header.html.erb (4.4ms)
+  Rendered layouts/_footer.html.erb (4.7ms)
+Completed 200 OK in 100ms (Views: 96.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:20:16 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:20:16 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:20:16 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:20:16 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:20:17 -0400
+
+
+Started POST "/subscriptions" for 127.0.0.1 at 2017-05-22 23:20:39 -0400
+Processing by SubscriptionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aL9oAQCVNGFMq3gFIc39ASmyVDNj7phB5P9O7qtgCcsXsN+4r77nb+/zXqJ7hlJ1xeEe5/IGX4XBk1f1nlM73g==", "subscription"=>{"stripe_card_token"=>"tok_1AMTZbBYd02uGOyQpyuM65V7", "user_id"=>"25", "tos_payment"=>"false"}}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stripe_customers" ("object", "livemode", "created_timestamp", "reference_id", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["object", "customer"], ["livemode", "f"], ["created_timestamp", 1495509640], ["reference_id", "cus_AhtMoI7g5cXDgc"], ["user_id", 25], ["created_at", "2017-05-23 03:20:40.802318"], ["updated_at", "2017-05-23 03:20:40.802318"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "stripe_charges" ("amount", "description", "stripe_customer_id", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["amount", 27000.0], ["description", "WFF FULL"], ["stripe_customer_id", 11], ["user_id", 25], ["created_at", "2017-05-23 03:20:42.215354"], ["updated_at", "2017-05-23 03:20:42.215354"]]
+  [1m[35m (15.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/wffull_payment
+Completed 302 Found in 2383ms (ActiveRecord: 22.1ms)
+
+
+Started GET "/wffull_payment" for 127.0.0.1 at 2017-05-22 23:20:42 -0400
+Processing by WffullDaysController#wffull_payment as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 25]]
+  Rendered wffull_days/wffull_payment.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (7.1ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 63ms (Views: 58.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:20:42 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:20:42 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:20:42 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:20:42 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:20:43 -0400
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:20:49 -0400
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-05-22 23:20:49 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (11.3ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (157.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (93.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (217.0ms)
+
+
+Started GET "/wffull_payment" for 127.0.0.1 at 2017-05-22 23:22:33 -0400
+Processing by WffullDaysController#wffull_payment as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  Rendered wffull_days/wffull_payment.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 42ms (Views: 39.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:22:33 -0400
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:22:33 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:22:33 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:22:33 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:22:34 -0400
+
+
+Started GET "/wffull_payment" for 127.0.0.1 at 2017-05-22 23:23:56 -0400
+Processing by WffullDaysController#wffull_payment as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 25]]
+  Rendered wffull_days/wffull_payment.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_header.html.erb (4.4ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 52ms (Views: 47.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:23:56 -0400
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:23:56 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:23:56 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:23:56 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:23:57 -0400
+
+
+Started GET "/wffull_payment" for 127.0.0.1 at 2017-05-22 23:24:05 -0400
+Processing by WffullDaysController#wffull_payment as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  Rendered wffull_days/wffull_payment.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 37ms (Views: 34.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:24:05 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:24:05 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:24:05 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:24:05 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:24:06 -0400
+
+
+Started GET "/wffull_payment" for 127.0.0.1 at 2017-05-22 23:24:22 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WffullDaysController#wffull_payment as HTML
+  [1m[35mUser Load (2.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  Rendered wffull_days/wffull_payment.html.erb within layouts/application (41.6ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (3.3ms)
+Completed 200 OK in 938ms (Views: 829.7ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:24:24 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:24:24 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:24:24 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:24:24 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:24:24 -0400
+
+
+Started GET "/wffull_payment" for 127.0.0.1 at 2017-05-22 23:25:22 -0400
+Processing by WffullDaysController#wffull_payment as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 25]]
+  Rendered wffull_days/wffull_payment.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (3.3ms)
+  Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 40ms (Views: 36.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:25:22 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:25:23 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:25:23 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:25:23 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:25:23 -0400
+
+
+Started GET "/assets/enstruct_layout/grass-ban.png" for 127.0.0.1 at 2017-05-22 23:25:23 -0400
+
+
+Started POST "/subscriptions" for 127.0.0.1 at 2017-05-22 23:25:58 -0400
+Processing by SubscriptionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0x5dniBizcsCdYvyyg8LxeJ2J/r1wnZrjdRDntoQ2G+sEeonj0kexaEtrVWQRKSxDiVtLmQqsa+ouFqF7yPqeg==", "subscription"=>{"stripe_card_token"=>"tok_1AMTejBYd02uGOyQrJDiXX4x", "user_id"=>"25", "tos_payment"=>"false"}}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "stripe_customers" ("object", "livemode", "created_timestamp", "reference_id", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["object", "customer"], ["livemode", "f"], ["created_timestamp", 1495509958], ["reference_id", "cus_AhtR5Z78EcT8TE"], ["user_id", 25], ["created_at", "2017-05-23 03:25:59.222193"], ["updated_at", "2017-05-23 03:25:59.222193"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "stripe_charges" ("amount", "description", "stripe_customer_id", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["amount", 27000.0], ["description", "WFF FULL"], ["stripe_customer_id", 12], ["user_id", 25], ["created_at", "2017-05-23 03:26:00.767312"], ["updated_at", "2017-05-23 03:26:00.767312"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/wffull_payment
+Completed 302 Found in 2730ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/wffull_payment" for 127.0.0.1 at 2017-05-22 23:26:00 -0400
+Processing by WffullDaysController#wffull_payment as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 25]]
+  Rendered wffull_days/wffull_payment.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 43ms (Views: 38.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-22 23:26:00 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-22 23:26:00 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-22 23:26:01 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-22 23:26:01 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-22 23:26:01 -0400
+
+
+Started GET "/assets/enstruct_layout/grass-ban.png" for 127.0.0.1 at 2017-05-22 23:26:01 -0400
+
+
+Started POST "/subscriptions" for 127.0.0.1 at 2017-05-23 04:39:47 -0400
+Processing by SubscriptionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1r7E6vo0T2grElGWxFm42Adli+RjFr+Yu0reVxIfGrOpsXNTVR+cZohKdzGeEhes6zbBMPL+eFyeJsdMJywopg==", "subscription"=>{"stripe_card_token"=>"tok_1AMYYRBYd02uGOyQ1ihox51C", "user_id"=>"25", "tos_payment"=>"true"}}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stripe_customers" ("object", "livemode", "created_timestamp", "reference_id", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["object", "customer"], ["livemode", "f"], ["created_timestamp", 1495528788], ["reference_id", "cus_AhyVoNmXQWMJxy"], ["user_id", 25], ["created_at", "2017-05-23 08:39:48.689959"], ["updated_at", "2017-05-23 08:39:48.689959"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stripe_charges" ("amount", "description", "stripe_customer_id", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["amount", 27000.0], ["description", "WFF FULL"], ["stripe_customer_id", 13], ["user_id", 25], ["created_at", "2017-05-23 08:39:50.145715"], ["updated_at", "2017-05-23 08:39:50.145715"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/wffull_payment
+Completed 302 Found in 2244ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/wffull_payment" for 127.0.0.1 at 2017-05-23 04:39:50 -0400
+Processing by WffullDaysController#wffull_payment as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 25]]
+  Rendered wffull_days/wffull_payment.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (3.4ms)
+  Rendered layouts/_footer.html.erb (15.0ms)
+Completed 200 OK in 50ms (Views: 47.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-23 04:39:50 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-23 04:39:50 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-23 04:39:50 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-23 04:39:50 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-23 04:39:51 -0400
+
+
+Started GET "/assets/enstruct_layout/grass-ban.png" for 127.0.0.1 at 2017-05-23 04:39:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-23 04:43:10 -0400
+Processing by ProductController#index as HTML
+  Rendered product/_plans.html.erb (1.5ms)
+  Rendered product/_plans.html.erb (0.6ms)
+  Rendered product/index.html.erb within layouts/application (206.2ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  Rendered layouts/_header.html.erb (27.0ms)
+  Rendered layouts/_footer.html.erb (22.1ms)
+Completed 200 OK in 417ms (Views: 416.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-23 04:43:13 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-23 04:43:13 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-23 04:43:13 -0400
+
+
+Started GET "/assets/enstruct_layout/Soccer-Boot.png" for 127.0.0.1 at 2017-05-23 04:43:13 -0400
+
+
+Started GET "/assets/enstruct_layout/sc-sm.png" for 127.0.0.1 at 2017-05-23 04:43:13 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo2.png" for 127.0.0.1 at 2017-05-23 04:43:13 -0400
+
+
+Started GET "/assets/enstruct_layout/place.png" for 127.0.0.1 at 2017-05-23 04:43:13 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo1.png" for 127.0.0.1 at 2017-05-23 04:43:13 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo3.png" for 127.0.0.1 at 2017-05-23 04:43:13 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo4.png" for 127.0.0.1 at 2017-05-23 04:43:13 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-23 04:43:13 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-23 04:43:14 -0400
+
+
+Started GET "/assets/enstruct_layout/grass2.png" for 127.0.0.1 at 2017-05-23 04:43:14 -0400
+
+
+Started GET "/assets/enstruct_layout/sf.png" for 127.0.0.1 at 2017-05-23 04:43:14 -0400
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-23 04:43:22 -0400
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-05-23 04:43:22 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (24.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (54.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (382.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (196.1ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (617.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-23 04:43:28 -0400
+Processing by ProductController#index as HTML
+  Rendered product/_plans.html.erb (0.9ms)
+  Rendered product/_plans.html.erb (0.7ms)
+  Rendered product/index.html.erb within layouts/application (57.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 25]]
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 155ms (Views: 153.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-23 04:43:28 -0400
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-23 04:43:28 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-23 04:43:28 -0400
+
+
+Started GET "/assets/enstruct_layout/Soccer-Boot.png" for 127.0.0.1 at 2017-05-23 04:43:28 -0400
+
+
+Started GET "/assets/enstruct_layout/place.png" for 127.0.0.1 at 2017-05-23 04:43:28 -0400
+
+
+Started GET "/assets/enstruct_layout/sc-sm.png" for 127.0.0.1 at 2017-05-23 04:43:29 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo1.png" for 127.0.0.1 at 2017-05-23 04:43:29 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo2.png" for 127.0.0.1 at 2017-05-23 04:43:29 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo3.png" for 127.0.0.1 at 2017-05-23 04:43:29 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo4.png" for 127.0.0.1 at 2017-05-23 04:43:29 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-23 04:43:29 -0400
+
+
+Started GET "/assets/maps/swiper.jquery.min.js.map" for 127.0.0.1 at 2017-05-23 04:43:30 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/maps/swiper.jquery.min.js.map"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (28.1ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.4ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (303.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (3.2ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (99.1ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (228.8ms)
+
+
+Started GET "/assets/enstruct_layout/grass2.png" for 127.0.0.1 at 2017-05-23 04:43:30 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-23 04:43:30 -0400
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-05-23 04:43:30 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (160.3ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (82.3ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (176.7ms)
+
+
+Started GET "/assets/enstruct_layout/sf.png" for 127.0.0.1 at 2017-05-23 04:43:31 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-23 04:44:51 -0400
+Processing by ProductController#index as HTML
+  Rendered product/_plans.html.erb (1.4ms)
+  Rendered product/_plans.html.erb (0.6ms)
+  Rendered product/index.html.erb within layouts/application (37.6ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 117ms (Views: 115.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-23 04:44:51 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-23 04:44:51 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-23 04:44:51 -0400
+
+
+Started GET "/assets/enstruct_layout/Soccer-Boot.png" for 127.0.0.1 at 2017-05-23 04:44:51 -0400
+
+
+Started GET "/assets/enstruct_layout/place.png" for 127.0.0.1 at 2017-05-23 04:44:51 -0400
+
+
+Started GET "/assets/enstruct_layout/sc-sm.png" for 127.0.0.1 at 2017-05-23 04:44:51 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo1.png" for 127.0.0.1 at 2017-05-23 04:44:51 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo2.png" for 127.0.0.1 at 2017-05-23 04:44:51 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo3.png" for 127.0.0.1 at 2017-05-23 04:44:51 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo4.png" for 127.0.0.1 at 2017-05-23 04:44:51 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-23 04:44:51 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-23 04:44:52 -0400
+
+
+Started GET "/assets/maps/swiper.jquery.min.js.map" for 127.0.0.1 at 2017-05-23 04:44:52 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/maps/swiper.jquery.min.js.map"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (16.3ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.4ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (283.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (131.4ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (231.4ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-05-23 04:44:53 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (154.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (68.5ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (145.2ms)
+
+
+Started GET "/assets/enstruct_layout/sf.png" for 127.0.0.1 at 2017-05-23 04:44:53 -0400
+
+
+Started GET "/assets/enstruct_layout/grass2.png" for 127.0.0.1 at 2017-05-23 04:44:53 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-23 04:45:52 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductController#index as HTML
+  Rendered product/_plans.html.erb (2.1ms)
+  Rendered product/_plans.html.erb (1.0ms)
+  Rendered product/index.html.erb within layouts/application (15947.0ms)
+  [1m[35mUser Load (1.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  Rendered layouts/_header.html.erb (212.7ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 16315ms (Views: 16264.6ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-23 04:46:09 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-23 04:46:09 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-23 04:46:09 -0400
+
+
+Started GET "/assets/enstruct_layout/Soccer-Boot.png" for 127.0.0.1 at 2017-05-23 04:46:09 -0400
+
+
+Started GET "/assets/enstruct_layout/place.png" for 127.0.0.1 at 2017-05-23 04:46:09 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo3.png" for 127.0.0.1 at 2017-05-23 04:46:09 -0400
+
+
+Started GET "/assets/enstruct_layout/sc-sm.png" for 127.0.0.1 at 2017-05-23 04:46:09 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo1.png" for 127.0.0.1 at 2017-05-23 04:46:09 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo2.png" for 127.0.0.1 at 2017-05-23 04:46:09 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo4.png" for 127.0.0.1 at 2017-05-23 04:46:09 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-23 04:46:09 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-23 04:46:10 -0400
+
+
+Started GET "/assets/maps/swiper.jquery.min.js.map" for 127.0.0.1 at 2017-05-23 04:46:10 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/maps/swiper.jquery.min.js.map"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (43.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (37.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.2ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (397.1ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (326.0ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (476.6ms)
+
+
+Started GET "/assets/enstruct_layout/sf.png" for 127.0.0.1 at 2017-05-23 04:46:11 -0400
+
+
+Started GET "/assets/enstruct_layout/grass2.png" for 127.0.0.1 at 2017-05-23 04:46:11 -0400
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2017-05-23 04:46:11 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Reggie/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (17.2ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.3ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (243.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (159.6ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /Users/Reggie/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (320.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-23 04:47:32 -0400
+Processing by ProductController#index as HTML
+  Rendered product/_plans.html.erb (0.9ms)
+  Rendered product/_plans.html.erb (0.8ms)
+  Rendered product/index.html.erb within layouts/application (32.8ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 25]]
+  Rendered layouts/_header.html.erb (5.6ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-23 04:47:32 -0400
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-23 04:47:32 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-23 04:47:32 -0400
+
+
+Started GET "/assets/enstruct_layout/Soccer-Boot.png" for 127.0.0.1 at 2017-05-23 04:47:32 -0400
+
+
+Started GET "/assets/enstruct_layout/place.png" for 127.0.0.1 at 2017-05-23 04:47:32 -0400
+
+
+Started GET "/assets/enstruct_layout/sc-sm.png" for 127.0.0.1 at 2017-05-23 04:47:32 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo1.png" for 127.0.0.1 at 2017-05-23 04:47:32 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo2.png" for 127.0.0.1 at 2017-05-23 04:47:32 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo3.png" for 127.0.0.1 at 2017-05-23 04:47:32 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo4.png" for 127.0.0.1 at 2017-05-23 04:47:32 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-23 04:47:32 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-23 04:47:33 -0400
+
+
+Started GET "/assets/enstruct_layout/sf.png" for 127.0.0.1 at 2017-05-23 04:47:33 -0400
+
+
+Started GET "/assets/enstruct_layout/grass2.png" for 127.0.0.1 at 2017-05-23 04:47:33 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+Processing by ProductController#index as HTML
+  Rendered product/_plans.html.erb (1.4ms)
+  Rendered product/_plans.html.erb (1.2ms)
+  Rendered product/index.html.erb within layouts/application (38.2ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  Rendered layouts/_header.html.erb (5.3ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 74ms (Views: 72.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+
+
+Started GET "/assets/enstruct_layout/Soccer-Boot.png" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+
+
+Started GET "/assets/enstruct_layout/place.png" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo2.png" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo4.png" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo1.png" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+
+
+Started GET "/assets/enstruct_layout/cologo3.png" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+
+
+Started GET "/assets/enstruct_layout/sc-sm.png" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+
+
+Started GET "/assets/enstruct_layout/sf.png" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+
+
+Started GET "/assets/enstruct_layout/grass2.png" for 127.0.0.1 at 2017-05-23 04:47:47 -0400
+
+
+Started GET "/soccer_programs?query=wffhalf" for 127.0.0.1 at 2017-05-23 04:47:53 -0400
+Processing by SoccerProgramsController#index as HTML
+  Parameters: {"query"=>"wffhalf"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 25]]
+  Rendered soccer_programs/_wffhalf.html.erb (141.8ms)
+  Rendered soccer_programs/index.html.erb within layouts/application (234.8ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 357ms (Views: 355.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-23 04:47:53 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-23 04:47:53 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-23 04:47:53 -0400
+
+
+Started GET "/assets/enstruct_layout/player.png" for 127.0.0.1 at 2017-05-23 04:47:53 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-23 04:47:53 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-23 04:47:53 -0400
+
+
+Started GET "/assets/enstruct_layout/grass-ban.png" for 127.0.0.1 at 2017-05-23 04:47:53 -0400
+
+
+Started GET "/wffhalf_days?utf8=%E2%9C%93&plan_name=wffhalf&interval=1&commit=Register" for 127.0.0.1 at 2017-05-23 04:47:59 -0400
+Processing by WffhalfDaysController#index as HTML
+  Parameters: {"utf8"=>"✓", "plan_name"=>"wffhalf", "interval"=>"1", "commit"=>"Register"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "child_count" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["child_count", 1], ["updated_at", "2017-05-23 08:47:59.503890"], ["id", 25]]
+  [1m[36m (16.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "children" WHERE "children"."user_id" = $1  [["user_id", 25]]
+  [1m[36mChild Load (0.5ms)[0m  [1mSELECT "children".* FROM "children" WHERE "children"."user_id" = $1[0m  [["user_id", 25]]
+  Rendered partials/_children_form.html.erb (245.3ms)
+  Rendered wffhalf_days/index.html.erb within layouts/application (270.5ms)
+  Rendered layouts/_header.html.erb (4.1ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 535ms (Views: 371.3ms | ActiveRecord: 23.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-23 04:48:00 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-23 04:48:00 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-23 04:48:00 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-23 04:48:00 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-23 04:48:00 -0400
+
+
+Started PUT "/wffhalf_days/25" for 127.0.0.1 at 2017-05-23 04:48:08 -0400
+Processing by WffhalfDaysController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hxye0825pFrfsnlpr+8hNcz1P36tZAoxBoK6Ycq1il34EylqYpJ3VHzqX871pI5BIKZ1qjyMzfUj7qN6/4a4SA==", "user"=>{"parent_name"=>"ff", "last_name"=>"ff", "primary_phone"=>"ff", "children_attributes"=>{"0"=>{"name"=>"f", "dob"=>"", "grade"=>"ff", "home_address"=>"f", "allergies"=>"f", "shirt_size"=>"0", "short_size"=>"0", "soccer_postiion"=>["DEF", ""], "id"=>"59"}, "1"=>{"name"=>"ff", "dob"=>"", "grade"=>"ff", "home_address"=>"ff", "allergies"=>"f", "shirt_size"=>"0", "short_size"=>"0", "soccer_postiion"=>["MID", ""], "id"=>"60"}, "2"=>{"name"=>"f", "dob"=>"", "grade"=>"ff", "home_address"=>"f", "allergies"=>"f", "shirt_size"=>"0", "short_size"=>"0", "soccer_postiion"=>["DEF", ""], "id"=>"61"}, "3"=>{"name"=>"ff", "dob"=>"", "grade"=>"ff", "home_address"=>"ff", "allergies"=>"f", "shirt_size"=>"0", "short_size"=>"0", "soccer_postiion"=>["MID", ""], "id"=>"62"}}, "plan_name"=>"wffhalf", "interval"=>"1"}, "commit"=>"Continue", "id"=>"25"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+Unpermitted parameter: interval
+  [1m[36mChild Load (0.4ms)[0m  [1mSELECT "children".* FROM "children" WHERE "children"."user_id" = $1 AND "children"."id" IN (59, 60, 61, 62)[0m  [["user_id", 25]]
+Unpermitted parameter: interval
+  [1m[35mCACHE (0.0ms)[0m  SELECT "children".* FROM "children" WHERE "children"."user_id" = $1 AND "children"."id" IN (59, 60, 61, 62)  [["user_id", 25]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "plan_name" = $1, "plan" = $2, "updated_at" = $3 WHERE "users"."id" = $4  [["plan_name", "wffhalf"], ["plan", "1"], ["updated_at", "2017-05-23 08:48:08.461662"], ["id", 25]]
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "children" SET "shirt_size" = $1, "short_size" = $2, "updated_at" = $3 WHERE "children"."id" = $4[0m  [["shirt_size", 0], ["short_size", 0], ["updated_at", "2017-05-23 08:48:08.465293"], ["id", 59]]
+  [1m[35mSQL (0.4ms)[0m  UPDATE "children" SET "shirt_size" = $1, "short_size" = $2, "updated_at" = $3 WHERE "children"."id" = $4  [["shirt_size", 0], ["short_size", 0], ["updated_at", "2017-05-23 08:48:08.467743"], ["id", 60]]
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "children" SET "shirt_size" = $1, "short_size" = $2, "updated_at" = $3 WHERE "children"."id" = $4[0m  [["shirt_size", 0], ["short_size", 0], ["updated_at", "2017-05-23 08:48:08.469479"], ["id", 61]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "children" SET "shirt_size" = $1, "short_size" = $2, "updated_at" = $3 WHERE "children"."id" = $4  [["shirt_size", 0], ["short_size", 0], ["updated_at", "2017-05-23 08:48:08.471213"], ["id", 62]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/wffhalf_payment
+Completed 302 Found in 37ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/wffhalf_payment" for 127.0.0.1 at 2017-05-23 04:48:08 -0400
+Processing by WffhalfDaysController#wffhalf_payment as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  Rendered wffhalf_days/wffhalf_payment.html.erb within layouts/application (10.7ms)
+  Rendered layouts/_header.html.erb (4.8ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 64ms (Views: 60.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-23 04:48:08 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-23 04:48:08 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-23 04:48:08 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-23 04:48:08 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-23 04:48:08 -0400
+
+
+Started GET "/wffhalf_payment" for 127.0.0.1 at 2017-05-23 04:49:36 -0400
+Processing by WffhalfDaysController#wffhalf_payment as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 25]]
+  Rendered wffhalf_days/wffhalf_payment.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 42ms (Views: 38.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-23 04:49:36 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-23 04:49:36 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-23 04:49:36 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-23 04:49:36 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-23 04:49:37 -0400
+
+
+Started POST "/subscriptions" for 127.0.0.1 at 2017-05-23 04:49:57 -0400
+Processing by SubscriptionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CR1mCAls3qi2leTyGbuxftCWfJ7BslXF1aaVWznGdRB2EtGxpkcNphXNwlVD8B4KPMU2SlBakgHwyoxADPVHBQ==", "subscription"=>{"stripe_card_token"=>"tok_1AMYiGBYd02uGOyQCARwgpuu", "user_id"=>"25", "tos_payment"=>"true"}}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "stripe_customers" ("object", "livemode", "created_timestamp", "reference_id", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["object", "customer"], ["livemode", "f"], ["created_timestamp", 1495529397], ["reference_id", "cus_AhyfT4VNAJJbsM"], ["user_id", 25], ["created_at", "2017-05-23 08:49:58.510909"], ["updated_at", "2017-05-23 08:49:58.510909"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "stripe_charges" ("amount", "description", "stripe_customer_id", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["amount", 10900.0], ["description", "WFF HALF DAY"], ["stripe_customer_id", 14], ["user_id", 25], ["created_at", "2017-05-23 08:49:59.899323"], ["updated_at", "2017-05-23 08:49:59.899323"]]
+  [1m[35m (15.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/wffhalf_payment
+Completed 302 Found in 2481ms (ActiveRecord: 21.6ms)
+
+
+Started GET "/wffhalf_payment" for 127.0.0.1 at 2017-05-23 04:49:59 -0400
+Processing by WffhalfDaysController#wffhalf_payment as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 25]]
+  Rendered wffhalf_days/wffhalf_payment.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 46ms (Views: 42.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-23 04:50:00 -0400
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-23 04:50:00 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-23 04:50:00 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-23 04:50:00 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-23 04:50:00 -0400
+
+
+Started GET "/wffhalf_payment" for 127.0.0.1 at 2017-05-23 04:50:41 -0400
+Processing by WffhalfDaysController#wffhalf_payment as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 25]]
+  Rendered wffhalf_days/wffhalf_payment.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+Completed 200 OK in 37ms (Views: 33.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2017-05-23 04:50:42 -0400
+
+
+Started GET "/assets/enstruct_layout/sc2.png" for 127.0.0.1 at 2017-05-23 04:50:42 -0400
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2017-05-23 04:50:42 -0400
+
+
+Started GET "/assets/enstruct_layout/360_2.png" for 127.0.0.1 at 2017-05-23 04:50:42 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 127.0.0.1 at 2017-05-23 04:50:42 -0400
